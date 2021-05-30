@@ -1,0 +1,147 @@
+#best {
+  font-family: "Poppins", sans-serif;
+  font-size: 70pt;
+  display: flex;
+  justify-content: center;
+  line-height: 200px;
+  color: #070707;
+}
+
+.bestselleralbum {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#gambar_artis {
+  display: block;
+  width: 350px;
+  height: 360px;
+  margin: 0;
+  padding: 0;
+}
+
+.albumandmerch {
+  display: flex;
+  justify-content: center;
+}
+
+.albumandmerch img {
+  width: 175px;
+  filter: brightness(50%);
+}
+
+.textartis {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 40px;
+  background-color: #ffffff;
+  color: #14213d;
+}
+
+.iu {
+  box-shadow: 0px 0px 40px 20px #c8c6c6;
+  margin: 100px 0;
+  margin-left: 80px;
+  margin-right: 40px;
+}
+
+.sejeong {
+  box-shadow: 0px 0px 40px 20px #c8c6c6;
+  margin: 100px 80px;
+}
+
+.samkim {
+  box-shadow: 0px 0px 40px 20px #c8c6c6;
+  margin: 100px 0px;
+  margin-left: 40px;
+  margin-right: 80px;
+}
+
+.ketengah {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered a {
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 1px 1px 5px black;
+}
+
+.bestdescription {
+  padding: 70px 550px;
+  text-align: center;
+  font-size: 16pt;
+  color: #14213d;
+}
+
+.learn {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.learn a {
+  text-decoration: none;
+  color: #14213d;
+  font-weight: bold;
+  font-size: 24px;
+  border: 2px solid #14213d;
+  padding: 20px 70px;
+}
+
+/*slider*/
+
+.slider-inner {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  padding: 3px;
+}
+
+.slider-inner .active {
+  display: none;
+}
+
+.active {
+  display: inline-block;
+}
+
+/* .prev,
+.next {
+  float: left;
+  margin-top: 130px;
+  cursor: pointer;
+}
+
+.prev {
+  position: relative;
+  margin-right: -45px;
+  z-index: 100;
+} */
+
+.slider-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prev {
+  cursor: pointer;
+}
+
+.next {
+  cursor: pointer;
+}
