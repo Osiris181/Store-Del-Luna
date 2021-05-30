@@ -4,7 +4,7 @@ body {
 }
 
 .bagian1 {
-  background-image: url(../Assets/first_section.png);
+  background-image: url(./Assets/first_section.png);
   background-size: 2100px;
   /* background-repeat: no-repeat; */
   height: 170vh;
@@ -512,7 +512,7 @@ footer {
   }
 
   .bagian1 {
-    background-image: url("../Assets/bts\ concert\ potrait.png");
+    background-image: url("./Assets/bts\ concert\ potrait.png");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 130vh;
