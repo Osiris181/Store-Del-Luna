@@ -1,0 +1,354 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.logo img {
+  width: 90px;
+  height: 90px;
+  padding-left: 140px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #070707;
+  height: 15vh;
+}
+
+#amt {
+  color: #d3d3d3;
+}
+
+.navmenu {
+  margin-right: 146px;
+}
+
+.navmenu a {
+  margin-left: 47px;
+}
+
+#home {
+  color: #c8c6c6;
+}
+
+#catalog {
+  color: #fca311;
+}
+
+#register {
+  color: #fca311;
+  border: 2px solid #fca311;
+  padding: 8px 21px;
+  transition: 0.4s;
+}
+
+#register:hover {
+  background-color: #fca311;
+  color: white;
+  transition: 0.4s;
+}
+
+#garis {
+  border: 2px solid black;
+  width: 270px;
+}
+
+.main {
+  padding-top: 92px;
+  background-color: #fbfbfb;
+}
+
+#artist_name {
+  font-weight: bold;
+}
+
+.artist {
+  margin-top: 30pt;
+  margin-bottom: 48pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 72pt;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 85px;
+}
+
+.more {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 21px;
+  margin-right: 21px;
+  margin-top: 32px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18.97px;
+  color: #434343;
+}
+
+.albums {
+  box-shadow: 0px 20px 70px 20px #c8c6c6;
+}
+
+.albums p {
+  margin: 28.44px 21px;
+  font-size: 22.77px;
+  color: #14213d;
+}
+
+.p {
+  padding: 0px 21px;
+  padding-top: 18px;
+  font-size: 22.77px;
+  color: #14213d;
+}
+
+#harga {
+  font-weight: bold;
+}
+
+.albums img {
+  width: 332pt;
+}
+
+.results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #434343;
+  opacity: 53%;
+  font-size: 22.77pt;
+  padding-bottom: 63pt;
+}
+
+/* .border {
+    border-left: 1px solid #c8c6c6;
+    border-right: 1px solid #c8c6c6;
+    border-bottom: 1px solid #c8c6c6;
+  } */
+
+footer {
+  background-color: #070707;
+  color: white;
+}
+
+.logo2 img {
+  width: 250px;
+  margin-right: 146px;
+  margin-top: 70px;
+}
+
+.infoandlogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 140px;
+}
+
+#imgfooter {
+  width: 27px;
+  margin-right: 20px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.instagram {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.touch {
+  margin: 47px 0px;
+  font-size: 48pt;
+  font-weight: bold;
+  color: #e5e5e5;
+}
+
+#textfooter {
+  font-size: 18pt;
+  opacity: 74%;
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14pt;
+  padding-top: 38px;
+  padding-bottom: 20px;
+}
+
+#bareng {
+  opacity: 72%;
+}
+
+#sendiri {
+  opacity: 100%;
+  color: #e5e5e5;
+}
+
+#nameresponsive {
+  font-weight: bold;
+  display: none;
+}
+
+.dropdown-navbar {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  display: inline-block;
+  display: none;
+}
+
+.dropdown-navbar img {
+  width: 50px;
+}
+
+.dropdown-navbar:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: block;
+  box-shadow: 0px 4px 8px lightgrey;
+  display: none;
+  margin-top: 2px;
+  margin-left: 150px;
+  transition: 0.4s;
+}
+
+.dropdown-content p {
+  padding: 16px;
+  cursor: pointer;
+  background-color: white;
+  min-width: 160px;
+  transition: 0.4s;
+}
+
+.dropdown-content p:hover {
+  background-color: black;
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 600px) {
+  .navmenu {
+    display: none;
+  }
+
+  .logo img {
+    padding-left: 35px;
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .row2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .albums {
+    margin-bottom: 100px;
+  }
+
+  .albums img {
+    width: 500px;
+  }
+  .logo2 {
+    display: none;
+  }
+
+  .row2 {
+    margin: 0;
+  }
+
+  .infoandlogo {
+    padding: 0px 35px;
+  }
+
+  .tulisan {
+    width: 500px;
+  }
+  .albums {
+    width: 500px;
+  }
+  .dropdown-navbar {
+    display: inline-block;
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  #register {
+    padding: 15px 15px;
+  }
+  #home {
+    color: #070707;
+  }
+  #catalog {
+    color: #fca311;
+  }
+
+  #catalog:hover {
+    color: white;
+  }
+  #amt:hover {
+    color: white;
+  }
+  #home:hover {
+    color: white;
+  }
+  #amt {
+    color: black;
+  }
+  .dropdown-navbar img {
+    margin-left: 300px;
+  }
+
+  .artist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48pt;
+    padding: 0;
+  }
+
+  #artist_name {
+    display: none;
+  }
+  #nameresponsive {
+    display: block;
+  }
+}

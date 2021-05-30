@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register in Store Del Luna</title>
+    <link rel="stylesheet" href="Register_style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../Assets/store_del_luna-06.png" alt="">
+        </div>
+
+        <div class="navmenu">
+            <a href="./index.html" id="home">
+                Home
+            </a>
+            <a href="./catalog.html" id="catalog">
+                Catalog
+            </a>
+            <a href="./Testimonials.html" id="amt">
+                Testimonial
+            </a>
+            <a href="./Register.html" id="register">
+                Register
+            </a>
+        </div>
+        
+        <div class="dropdown-navbar">
+            <img src="../assets/hamburger.png" alt="">
+            <div class="dropdown-content">
+                <a href="./index.html" id="home">
+                    <p>Home</p>
+                </a>
+                <a href="./catalog.html" id="catalog">
+                    <p>Catalog</p>
+                </a>
+                <a href="./Testimonials.html" id="amt">
+                    <p>Testimonial</p>
+                </a>
+                <a href="./Register.html">
+                    <p id="register">Register</p>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="pisah">   
+    <img class="cd" src="../Assets/cd.png" alt="">
+    <form name="form" onsubmit="return validateForm()" method="POST" action="./index.html">
+        <div class="container">
+
+            <div class="judul">
+                <div class="join">
+                    Join the&nbsp;
+                </div>
+                <div class="fun">
+                    fun.
+                </div>
+            </div>
+
+            <div class="signup">
+                <div class="box">
+                    <img src="../Assets/gugle.png" alt="">
+                    <div class="pp">
+                        Sign up with Google
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="../Assets/epel.png" alt="">
+                    <div class="pp">
+                        Sign up with Apple
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="garis">
+                <hr>
+                <div class="or">
+                    or
+                </div>
+                <hr>
+            </div>
+        
+           <input class="username" type="text" name="username" id="username" placeholder="Username">
+           <input class="emailform" type="email" name="email" id="email" placeholder="Email">
+           <input class ="password" type="password" name="password" id="password" placeholder="Password">
+           <input class ="password" type="password" name="cpassword" id="cpassword" placeholder="Confirm Password">
+           <input class="fullname" type="text" name="fullname" id="fullname" placeholder="Fullname">
+           <input class="age" type="number" name="age" id="age" placeholder="Age">
+           <div class="gender">
+                <div class="aaa">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                </div>
+                <div class="aaa">
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+                <div class="aaa">
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Prefer not to say</label>
+                </div>
+           </div>
+           <div class="agree">
+                <input class="check" type="checkbox" name="checkboxed" id="chkbox" value="agr">
+                <div class="kata">
+                    I agree to platform's&nbsp;
+                </div>
+                <div class="kuning">
+                    Terms of Services&nbsp;
+                </div>
+                <div class="kata">
+                    and&nbsp;
+                </div>
+                <div class="kuning">
+                    Privacy Policy
+                </div>
+           </div>
+
+           <button class="botton">Register</button>
+
+        </div>
+    </form>
+    </div>
+    <footer>
+        <div class="infoandlogo">
+            <div class="footinfo">
+                <div class="touch">Get in touch</div>
+                <div class="instagram">
+                    <img id="imgfooter" src="../Assets/instagram logo 1.png" alt="">
+                    <div id="textfooter">
+                        @delunastore
+                    </div>
+                    
+                </div>
+                <div class="email">
+                    <img id="imgfooter" src="../Assets/mail.png" alt="">
+                    <div id="textfooter">
+                        delunaofficial@gmail.com
+                    </div>
+                    
+                </div>
+                <div class="location">
+                    <img id="imgfooter" src="../Assets/location.png" alt="">
+                    <div id="textfooter">
+                        <div>Jl. KH. Noer Ali No.10B, RT.008/RW.002, Jakasampurna,</div>
+                        <div>Kec. Bekasi Bar., Kota Bks, Jawa Barat 17145</div>
+                    </div>         
+                </div>
+            </div>
+    
+            <div class="logo2">
+                <img src="../Assets/store_del_luna-04.png" alt="" srcset="">
+            </div>
+        </div>
+        <div class="copy">
+            <div id="bareng">
+                &copy; Copyright &nbsp; 
+            </div>
+            <div id="sendiri">
+                Store Del Luna
+            </div>
+            <div id="bareng">
+                . All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,585 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.bagian1 {
+  background-image: url(../Assets/first_section.png);
+  background-size: 2100px;
+  /* background-repeat: no-repeat; */
+  height: 170vh;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.logo img {
+  width: 90px;
+  height: 90px;
+  padding-left: 140px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #070707;
+  height: 15vh;
+}
+
+#amt {
+  color: #d3d3d3;
+}
+
+.navmenu {
+  margin-right: 146px;
+}
+
+.navmenu a {
+  margin-left: 47px;
+}
+
+#home {
+  color: #fca311;
+}
+
+#catalog {
+  color: #c8c6c6;
+}
+
+#register {
+  color: #fca311;
+  border: 2px solid #fca311;
+  padding: 8px 21px;
+  transition: 0.4s;
+}
+
+#register:hover {
+  background-color: #fca311;
+  color: white;
+  transition: 0.4s;
+}
+
+.bagian2 {
+  padding-top: 92px;
+  background-color: #fbfbfb;
+}
+
+.storedel {
+  color: #d3d3d3;
+  font-size: 135px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  margin-top: 390px;
+  margin-left: 1050px;
+  line-height: 150px;
+}
+
+.store {
+  margin-bottom: 0;
+}
+
+#storedeldesc {
+  color: #d3d3d3;
+  font-size: 28pt;
+  margin-left: 1050px;
+  margin-top: 17px;
+}
+
+.lunadescription {
+  font-size: 18px;
+  text-align: center;
+  color: #e5e5e5;
+  margin: 450px 550px;
+  /* background-color: black; */
+  line-height: 30px;
+}
+
+#garis {
+  border: 2px solid #14213d;
+  width: 270px;
+}
+
+#best {
+  font-family: "Poppins", sans-serif;
+  font-size: 70pt;
+  display: flex;
+  justify-content: center;
+  line-height: 200px;
+  color: #070707;
+  margin: 0;
+  padding: 0;
+}
+
+.bestselleralbum {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 55px 0;
+}
+
+#gambar_artis {
+  display: block;
+  width: 350px;
+  height: 360px;
+  margin: 0;
+  padding: 0;
+}
+
+.albumandmerch {
+  display: flex;
+  justify-content: center;
+}
+
+.albumandmerch img {
+  width: 175px;
+  filter: brightness(50%);
+}
+
+.textartis {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 40px;
+  background-color: #ffffff;
+  color: #14213d;
+}
+
+.iu {
+  box-shadow: 0px 0px 40px 20px #c8c6c6;
+  margin-left: 80px;
+  margin-right: 40px;
+}
+
+.sejeong {
+  box-shadow: 0px 0px 40px 20px #c8c6c6;
+  margin: 0px 80px;
+}
+
+.samkim {
+  box-shadow: 0px 0px 40px 20px #c8c6c6;
+  margin-left: 40px;
+  margin-right: 80px;
+}
+
+.ketengah {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered a {
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 1px 1px 5px black;
+}
+
+.bestdescription {
+  padding: 0px 550px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 16pt;
+  color: #14213d;
+}
+
+.learn {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 90px;
+}
+
+.learn a {
+  text-decoration: none;
+  color: #14213d;
+  font-weight: bold;
+  font-size: 24px;
+  border: 2px solid #14213d;
+  padding: 20px 70px;
+}
+
+footer {
+  background-color: #070707;
+  color: white;
+}
+
+.logo2 img {
+  width: 250px;
+  margin-right: 146px;
+  margin-top: 70px;
+}
+
+.infoandlogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 140px;
+}
+
+#imgfooter {
+  width: 27px;
+  margin-right: 20px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.instagram {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.touch {
+  margin: 47px 0px;
+  font-size: 48pt;
+  font-weight: bold;
+  color: #e5e5e5;
+}
+
+#textfooter {
+  font-size: 18pt;
+  opacity: 74%;
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14pt;
+  padding-top: 38px;
+  padding-bottom: 20px;
+}
+
+#bareng {
+  opacity: 72%;
+}
+
+#sendiri {
+  opacity: 100%;
+  color: #e5e5e5;
+}
+
+/*responsive home*/
+
+.dropdown-navbar {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  display: inline-block;
+  display: none;
+}
+
+.dropdown-navbar img {
+  width: 50px;
+}
+
+.dropdown-navbar:hover .dropdown-content {
+  display: block;
+  transition: 0.4s;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: block;
+  box-shadow: 0px 4px 8px lightgrey;
+  display: none;
+  margin-top: 2px;
+  margin-left: 150px;
+  transition: 0.4s;
+}
+
+.dropdown-content p {
+  padding: 16px;
+  cursor: pointer;
+  background-color: white;
+  min-width: 160px;
+  transition: 0.4s;
+}
+
+.dropdown-content p:hover {
+  background-color: black;
+  transition: 0.4s;
+}
+
+/*slider*/
+
+.slider-inner {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  padding: 3px;
+}
+
+.slider-inner .active {
+  display: none;
+}
+
+.active {
+  display: inline-block;
+}
+
+/* .prev,
+.next {
+  float: left;
+  margin-top: 130px;
+  cursor: pointer;
+}
+
+.prev {
+  position: relative;
+  margin-right: -45px;
+  z-index: 100;
+} */
+
+.slider-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prev {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.next {
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.slider-inner_resp {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navmenu {
+    display: none;
+  }
+
+  .logo img {
+    padding-left: 35px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .row2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .testi {
+    margin-bottom: 100px;
+  }
+
+  .albums img {
+    width: 500px;
+  }
+  .logo2 {
+    display: none;
+  }
+
+  .row2 {
+    margin: 0;
+  }
+
+  .infoandlogo {
+    padding: 0px 35px;
+  }
+
+  /*baru*/
+
+  .zoomin:hover {
+    transform: scale(1);
+    box-shadow: 0px 20px 70px 20px #c8c6c6;
+  }
+
+  .norah:hover {
+    font-size: 0;
+  }
+
+  .norah:hover:before {
+    font-size: 14px;
+  }
+
+  /**/
+
+  .tulisan {
+    width: 500px;
+  }
+  .albums {
+    width: 500px;
+  }
+  .dropdown-navbar {
+    display: inline-block;
+  }
+
+  .judul {
+    font-size: 65px;
+  }
+
+  .desc {
+    font-size: 23px;
+  }
+
+  .John {
+    padding-bottom: 0;
+    margin-bottom: 80px;
+  }
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  #register {
+    padding: 15px 15px;
+    transition: 0.4s;
+  }
+  #home {
+    color: #070707;
+  }
+  #catalog {
+    color: #fca311;
+  }
+
+  #catalog:hover {
+    color: white;
+  }
+  #amt:hover {
+    color: white;
+  }
+  #home:hover {
+    color: white;
+  }
+  #amt {
+    color: black;
+  }
+  .dropdown-navbar img {
+    margin-left: 300px;
+  }
+
+  .artisdibagian1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .iu {
+    margin-bottom: 60px;
+  }
+
+  .sejeong {
+    margin-bottom: 60px;
+  }
+
+  .samkim {
+    padding: 0;
+    margin: 0;
+  }
+  .artisdibagian2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .bagian1 {
+    background-image: url("../Assets/bts\ concert\ potrait.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 130vh;
+  }
+
+  .storedel {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    margin: 0;
+    margin-top: 183px;
+    font-size: 112px;
+  }
+
+  #gambar_artis {
+    padding: 0;
+    margin: 0;
+  }
+
+  #storedeldesc {
+    margin: 0;
+    padding: 0;
+    padding-left: 45px;
+    font-size: 25.8px;
+  }
+
+  .lunadescription {
+    margin: 0;
+    padding: 0;
+    padding-left: 40px;
+    font-size: 15px;
+    line-height: 24px;
+    width: 500px;
+    padding-top: 300px;
+  }
+
+  .bestdescription {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    width: 500px;
+    padding-left: 40px;
+  }
+
+  .bestselleralbum {
+    display: none;
+  }
+
+  .bestselleralbumresp {
+    display: inline-block;
+  }
+
+  .resactive {
+    display: none;
+  }
+
+  .ilang {
+    display: none;
+    box-shadow: 0px 0px 40px 20px #c8c6c6;
+  }
+
+  .resactive {
+    display: inline-block;
+  }
+
+  .slider-inner_resp {
+    display: inline-block;
+  }
+}
